@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Workfront" verbose="1">
+	<parameter name="browser" value="webdriver.chrome.driver" />
+	<parameter name="driverPath"
+		value="C://Program Files//chromedriver.exe" />
+	<test name="Login and Task Creation">
+		<classes>
+			<class
+				name="am.qa.workfront.login.WorkfrontLoginTest" />
+			<class
+				name="am.qa.workfront.task.tests.WorkfrontTaskTest" />
+		</classes>
+	</test>
+</suite>
